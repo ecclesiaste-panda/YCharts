@@ -87,7 +87,7 @@ fun LineChart(modifier: Modifier, lineChartData: LineChartData) {
             var columnWidth by remember { mutableStateOf(0f) }
             var rowHeight by remember { mutableStateOf(0f) }
             var xOffset by remember { mutableStateOf(0f) }
-            val bgColor = MaterialTheme.colorScheme.surface
+            val bgColor = Color.Transparent //MaterialTheme.colorScheme.surface
             var isTapped by remember { mutableStateOf(false) }
             var tapOffset by remember { mutableStateOf(Offset(0f, 0f)) }
             var selectionTextVisibility by remember { mutableStateOf(false) }
